@@ -1,0 +1,50 @@
+npm init
+entry point - server.js
+
+Add a file server.js
+
+npm install express mongoose jsonwebtoken bcrypt cors dotenv body-parser multer stripe validator nodemon
+
+In package.json add "scripts"
+- "server":"nodemon server.js"
+npm run server
+
+Add folders - config , middleware , models , controllers ,
+                 routes , uploads
+
+Add a file - .env
+
+In package.json before "scripts" ->  "type":"module",
+
+-------------------------------------------------
+In Google - Search "mongodb atlas"
+Sign In - Google/Github
+Create Organisation - Saurav
+Create Project - Projects 
+Create a deployment - Create - build a database - Select M0 Server -> Google Cloud -> Mumbai -> Create Deployment -> 
+    Username -> Saurav , Password -> 524272 - Create database user 
+    Choose a connection Method -> Driver - Mongoose 
+    Copy the connection string -> Close
+    Paste it in server.js as comment for later use.
+    Select (Network Access) from left menu 
+    Add Ip Address =>  0.0.0.0 -> Confirm
+    Delete the other Ip Address - Now your db can be accessed from anywhere.
+
+    Now inside config folder add db.json file
+
+--------------------------------
+Add a admin folder
+Open admin -> Open in integrated terminal
+npm create vite@latest . -> select React -> select Javascript
+
+npm install axios react-toastify react-router-dom
+
+
+
+
+
+
+
+
+
+

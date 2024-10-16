@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Responsive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="banner">
+        <header>
+            <a href="#" class="logo">Port<span>folio</span></a>
+            <div class="toggle"></div>
+        </header>
+        <img src="./images/girl.png" class="girl" alt="girl">
+        <div class="content">
+            <div class="contentBx">
+                <h4>Hello,</h4>
+                <h2>I'm <span>Alina Smith</span></h2>
+                <h3>Professional Web Designer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus provident porro suscipit optio dolor?
+                    Culpa sit ab ea illo nam dolorem eius accusamus quibusdam. Culpa facilis eaque ut quisquam
+                    accusamus.</p>
+                <a href="#">Hire Me</a>
+                <a href="#">Download CV</a>
+            </div>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="./images/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/instagram.png" alt=""></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Word</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </section>
+    <script>
+        let banner = document.querySelector('.banner');
+        let menutoggle = document.querySelector('.toggle');
+        menutoggle.onclick = function () {
+            menutoggle.classList.toggle('active');
+            banner.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>

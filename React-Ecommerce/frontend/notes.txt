@@ -1,0 +1,30 @@
+npm create vite@latest
+y
+frontend
+React
+JavaScript
+cd frontend
+npm install
+npm install react-router-dom
+npm run dev
+-------------------------------
+Install Extension
+ES7 React/Redux/GraphQL/React-Native
+-------------------------------
+Create basic styling
+App.css
+*{
+  padding: 0;margin: 0;box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+---------------------------------
+Create two folders in src -> components, pages
+--------------------------------------
+Create folder inside components -> Navbar 
+Inside Navbar -> Navbar.jsx , Navbar.css
